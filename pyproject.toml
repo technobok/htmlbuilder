@@ -1,0 +1,30 @@
+
+
+[tool.pylint.'MASTER']
+
+[tool.pylint.'MESSAGES CONTROL']
+
+disable=[
+	'useless-return', 
+	'too-many-arguments',
+	'too-many-instance-attributes',
+	'redefined-builtin',
+	'protected-access',
+	'too-many-public-methods'
+]
+
+[tool.pylint.'BASIC']
+
+variable-naming-style='any'
+attr-naming-style='any'
+method-naming-style='any'
+function-naming-style='any'
+argument-naming-style='any'
+class-naming-style='any'
+
+
+[tool.mypy]
+
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+
